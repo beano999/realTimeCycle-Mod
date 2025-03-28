@@ -1,32 +1,14 @@
 {
   "schemaVersion": 1,
   "id": "realtimecycle",
-  "version": "${version}",
-  "name": "realTimeCycle",
-  "description": "",
-  "authors": [],
-  "contact": {},
-  "license": "All-Rights-Reserved",
-  "icon": "assets/realtimecycle/icon.png",
-  "environment": "*",
+  "version": "1.0.0",
+  "name": "RealtimeCycle Mod",
   "entrypoints": {
-    "client": [
-      "me.beanoW.realtimecycle.client.RealtimecycleClient"
-    ],
     "main": [
       "me.beanoW.realtimecycle.Realtimecycle"
     ]
   },
-  "mixins": [
-    "realtimecycle.mixins.json",
-    {
-      "config": "realtimecycle.client.mixins.json",
-      "environment": "client"
-    }
-  ],
   "depends": {
-    "fabricloader": ">=${loader_version}",
-    "fabric": "*",
-    "minecraft": "${minecraft_version}"
+    "fabric-api": "*"
   }
 }
