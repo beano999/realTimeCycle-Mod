@@ -1,4 +1,4 @@
 ﻿# realTimeCycle-Mod
 
 
-The mod aims to reflect your time as the in game time!
+The mod aims to reflect your irl time as the in game time!
